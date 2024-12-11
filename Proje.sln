@@ -5,6 +5,21 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proje", "Proje\Proje.csproj", "{A6D3C96A-4A08-4164-A920-2C978608A9B2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{6221EB3F-9094-4EBA-8519-1487E1CF238C}"
+	ProjectSection(SolutionItems) = preProject
+		Advisors.cs = Advisors.cs
+		Courses.cs = Courses.cs
+		StudentCourseSelections.cs = StudentCourseSelections.cs
+		Students.cs = Students.cs
+		Transcript.cs = Transcript.cs
+		Users.cs = Users.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{B8B7D938-99D2-4A05-A068-2781D20BE609}"
+	ProjectSection(SolutionItems) = preProject
+		ApplicationDbContext.cs = ApplicationDbContext.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
